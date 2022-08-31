@@ -10,8 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import {
   faUserSecret,
   faBars,
+  faChevronDown,
 } from '@fortawesome/free-solid-svg-icons';
-library.add(faUserSecret, faBars);
+library.add(faUserSecret, faBars, faChevronDown);
 
 import router from './router/router.config';
 

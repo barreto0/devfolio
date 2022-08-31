@@ -48,6 +48,7 @@
             >
           </li>
         </ul>
+        <p class="text-light p-0 m-0">PT | EN</p>
       </div>
     </div>
   </nav>
