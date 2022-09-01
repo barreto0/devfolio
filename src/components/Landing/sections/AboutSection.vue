@@ -22,7 +22,7 @@
           >Brasília</a
         >
         sou apaixonado pelo que faço.<br />
-        Dominador dos espectros frontend, backend e mobile, construo
+        Com domínio dos espectros frontend, backend e mobile, construo
         qualquer sistema web e móvel a partir do nada
         <span class="end-point">.</span>
       </p>

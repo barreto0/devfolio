@@ -11,8 +11,9 @@ import {
   faUserSecret,
   faBars,
   faChevronDown,
+  faGears,
 } from '@fortawesome/free-solid-svg-icons';
-library.add(faUserSecret, faBars, faChevronDown);
+library.add(faUserSecret, faBars, faChevronDown, faGears);
 
 import router from './router/router.config';
 

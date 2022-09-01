@@ -3,6 +3,7 @@
     <Navbar></Navbar>
     <NameSection></NameSection>
     <AboutSection></AboutSection>
+    <SkillsSection></SkillsSection>
   </div>
 </template>
 <script src="./index.js"></script>

@@ -42,7 +42,40 @@
   }
   .no-hover{
     pointer-events: none;
-}
+  }
+  .skill-card {
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    border: 1px solid #c044ec;
+   }  
+   .skill-card-title {
+    font-size: 3.5vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: underline #c044ec;
+    margin: 5% 0;
+   }
+   .skill-card-subtitle {
+    font-size: 2.5vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: underline #c044ec;
+    margin: 5% 0;
+   }
+   .skill-card-icon {
+    font-size: 4vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+   }
+   .skill-card-text {
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+   }
   /* Animaçoes */
   /* Desfoque de texto */
   .text-focus-in {
