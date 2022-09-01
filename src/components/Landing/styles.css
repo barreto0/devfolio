@@ -1,0 +1,124 @@
+.name {
+    font-size: 10vh;
+    font-weight: 600;
+  }
+  .job-title {
+    font-size: 5vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  .about-me {
+    font-size: 4vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  .links-purple {
+    color: white;
+    text-decoration: underline #c044ec;
+  }
+  .links-purple:hover {
+    color: white;
+    text-decoration: underline #c044ec;
+  }
+  .end-point {
+    color: #c044ec;
+  }
+  .arrow-down {
+    color: #c044ec;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  .arrow-down-white {
+    color: white;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  .second-session-background {
+    background-image: url('src/assets/low-poly-grid-purple.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .no-hover{
+    pointer-events: none;
+}
+  /* Animaçoes */
+  /* Desfoque de texto */
+  .text-focus-in {
+    -webkit-animation: text-focus-in 1s
+      cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+      both;
+  }
+  
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  /* Seta de deslizar */
+  
+  .animated-chevron-down {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -webkit-transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-25px);
+    }
+    60% {
+      -webkit-transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-25px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+  }
