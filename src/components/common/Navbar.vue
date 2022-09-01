@@ -36,7 +36,7 @@
               class="nav-link active fw-bold text-light"
               aria-current="page"
               href="#"
-              >Contato</a
+              >Portifólio</a
             >
           </li>
           <li class="nav-item">
@@ -44,11 +44,11 @@
               class="nav-link active fw-bold text-light"
               aria-current="page"
               href="#"
-              >Quem Somos</a
+              >Contato</a
             >
           </li>
         </ul>
-        <p class="text-light p-0 m-0">PT | EN</p>
+        <p class="text-light p-0 m-0">PT-BR | EN</p>
       </div>
     </div>
   </nav>
