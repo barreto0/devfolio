@@ -8,7 +8,7 @@
       </p>
 
       <a
-        class="typewrite job-title no-hover"
+        class="typewrite job-title no-hover text-center"
         style="text-decoration: none"
         data-period="2000"
         data-type='[ "Engenheiro da Computação.", "Desenvolvedor Fullstack.", "Desenvolvedor Mobile."]'

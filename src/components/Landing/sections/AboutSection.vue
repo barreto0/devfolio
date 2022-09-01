@@ -9,7 +9,7 @@
       <p
         class="text-light text-center about-me"
         style="
-          margin: 0 20%;
+          margin: 0 15%;
           text-align: justify;
           text-justify: inter-word;
         "
@@ -21,7 +21,7 @@
           target="_blank"
           >Brasília</a
         >
-        sou apaixonado pelo que faço.<br />
+        e fluente em Inglês sou apaixonado pelo que faço.<br />
         Com domínio dos espectros frontend, backend e mobile, construo
         qualquer sistema web e móvel a partir do nada
         <span class="end-point">.</span>
