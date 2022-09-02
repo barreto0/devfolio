@@ -28,7 +28,7 @@
               class="nav-link active fw-bold text-light"
               aria-current="page"
               href="#"
-              >Início</a
+              >Sobre</a
             >
           </li>
           <li class="nav-item">

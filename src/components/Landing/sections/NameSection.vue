@@ -16,11 +16,11 @@
         <span class="wrap"></span>
       </a>
     </div>
-    <div class="container text-center" style="margin-top: -12%">
+    <div class="container text-center" style="margin-top: -15vh">
       <div class="row">
         <div class="col align-self-center">
           <p class="text-light m-0 p-0">
-            Deslize para descobrir mais sobre mim e oque faço<span
+            Deslize para descobrir mais sobre mim<span
               class="end-point"
               >.</span
             >

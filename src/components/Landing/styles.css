@@ -1,5 +1,5 @@
 .name {
-    font-size: 10vh;
+    font-size: 9vh;
     font-weight: 600;
   }
   .job-title {
@@ -27,7 +27,7 @@
   }
   .arrow-down {
     color: #c044ec;
-    margin-top: 2%;
+    margin-top: 3vh;
     cursor: pointer;
   }
   .arrow-down-white {
@@ -44,9 +44,12 @@
     pointer-events: none;
   }
   .skill-card {
+    height: 70vh;
+    padding: 20px;
     background-color: #1f1f1f;
     border-radius: 12px;
     border: 1px solid #c044ec;
+    margin-top: 5%;
    }  
    .skill-card-title {
     font-size: 3.5vh;
