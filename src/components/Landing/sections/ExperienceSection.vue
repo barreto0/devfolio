@@ -17,7 +17,7 @@
         </li>
         <li>
           <p class="timeline-experience-title">
-            Desenvolvedor Fullstack- Fornax (09/2022 - atual)
+            Desenvolvedor Fullstack - Fornax (09/2022 - atual)
           </p>
           <p>-</p>
         </li>
