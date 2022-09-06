@@ -1,5 +1,6 @@
 <template>
   <div class="container min-vh-100">
+    <p class="job-title text-center mt-5">As cartas do jogador.</p>
     <div
       class="row h-100 align-items-center"
       style="margin-top: 10vh"
@@ -98,7 +99,7 @@
         </template>
       </SkillCard>
     </div>
-    <div class="container text-center" style="margin-top: 5vh">
+    <div class="container text-center" style="margin-top: 3vh">
       <div class="row">
         <div class="col align-self-center">
           <font-awesome-icon

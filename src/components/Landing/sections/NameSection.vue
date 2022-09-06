@@ -16,14 +16,12 @@
         <span class="wrap"></span>
       </a>
     </div>
-    <div class="container text-center" style="margin-top: -15vh">
+    <div class="container text-center" style="margin-top: -16.5vh">
       <div class="row">
         <div class="col align-self-center">
           <p class="text-light m-0 p-0">
-            Deslize para descobrir mais sobre mim<span
-              class="end-point"
-              >.</span
-            >
+            Deslize ou clique na seta para descobrir mais sobre
+            mim<span class="end-point">.</span>
           </p>
           <font-awesome-icon
             class="animated-chevron-down bounce arrow-down"

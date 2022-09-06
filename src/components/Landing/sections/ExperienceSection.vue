@@ -1,6 +1,6 @@
 <template>
   <div class="timeline-background min-vh-100">
-    <div class="col-md-8 offset-md-3 text-white">
+    <div class="col-md-8 offset-md-3 text-white mt-5">
       <p class="job-title">A estrada até aqui</p>
       <ul class="timeline">
         <li>
