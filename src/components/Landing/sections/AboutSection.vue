@@ -26,8 +26,10 @@
           >.</span
         ><br />
         Com domínio dos espectros frontend, backend e mobile, construo
-        qualquer sistema web e móvel a partir do nada
-        <span class="end-point">.</span>
+        qualquer sistema web e móvel a partir do nada<span
+          class="end-point"
+          >.</span
+        >
       </p>
     </div>
     <div class="container text-center" style="margin-top: -8vh">

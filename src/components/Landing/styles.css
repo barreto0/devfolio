@@ -36,7 +36,12 @@
     cursor: pointer;
   }
   .second-session-background {
-    background-image: url('src/assets/low-poly-grid-purple.png');
+    background-image: url('src/assets/low-poly-grid-purple.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .timeline-background {
+    background-image: url('src/assets/blob-purple.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -44,7 +49,7 @@
     pointer-events: none;
   }
   .skill-card {
-    height: 70vh;
+    min-height: 70vh;
     padding: 20px;
     background-color: #1f1f1f;
     border-radius: 12px;
@@ -78,6 +83,13 @@
     padding: 0;
     margin: 0;
     color: white;
+   }
+   .timeline-experience-title{
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+
    }
   /* Animaçoes */
   /* Desfoque de texto */

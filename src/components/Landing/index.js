@@ -2,12 +2,14 @@ import Navbar from '../common/Navbar.vue';
 import NameSection from './sections/NameSection.vue';
 import AboutSection from './sections/AboutSection.vue';
 import SkillsSection from './sections/SkillsSection.vue';
+import ExperienceSection from './sections/ExperienceSection.vue';
 export default {
   components: {
     Navbar,
     NameSection,
     AboutSection,
     SkillsSection,
+    ExperienceSection,
   },
 };
 class TxtType {

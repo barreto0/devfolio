@@ -1,6 +1,9 @@
 <template>
-  <div class="container vh-100">
-    <div class="row h-100 align-items-center">
+  <div class="container min-vh-100">
+    <div
+      class="row h-100 align-items-center"
+      style="margin-top: 10vh"
+    >
       <SkillCard>
         <template v-slot:icon>
           <font-awesome-icon
@@ -55,7 +58,7 @@
         <template v-slot:expertise-title> Especialidade </template>
         <template v-slot:expertise>
           Do mais simples gerenciador de músicas de karaokê ao mais
-          completo sistema de backoffice.
+          completo sistema de backoffice com uso de websockets.
         </template>
         <template v-slot:tools-name>
           Principais Tecnologias
@@ -94,6 +97,16 @@
           as suas expectativas.
         </template>
       </SkillCard>
+    </div>
+    <div class="container text-center" style="margin-top: 5vh">
+      <div class="row">
+        <div class="col align-self-center">
+          <font-awesome-icon
+            class="animated-chevron-down bounce arrow-down"
+            icon="fa-solid fa-chevron-down"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>

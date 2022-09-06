@@ -4,6 +4,7 @@
     <NameSection></NameSection>
     <AboutSection></AboutSection>
     <SkillsSection></SkillsSection>
+    <ExperienceSection></ExperienceSection>
   </div>
 </template>
 <script src="./index.js"></script>
