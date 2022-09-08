@@ -7,21 +7,33 @@
         GABRIEL BARRETO<span class="end-point">.</span>
       </p>
 
-      <a
+      <!-- <a
         class="typewrite job-title no-hover text-center"
         style="text-decoration: none"
         data-period="2000"
         data-type='[ "Engenheiro da Computação.", "Desenvolvedor Fullstack.", "Desenvolvedor Mobile."]'
       >
         <span class="wrap"></span>
-      </a>
+      </a> -->
+      <p class="job-title">
+        {{ $t('name_section.computer_engineer')
+        }}<span class="end-point">.</span>
+      </p>
+      <p class="job-title">
+        {{ $t('name_section.fullstack_developer')
+        }}<span class="end-point">.</span>
+      </p>
+      <p class="job-title">
+        {{ $t('name_section.mobile_developer')
+        }}<span class="end-point">.</span>
+      </p>
     </div>
     <div class="container text-center" style="margin-top: -16.5vh">
       <div class="row">
         <div class="col align-self-center">
           <p class="text-light m-0 p-0">
-            Deslize ou clique na seta para descobrir mais sobre
-            mim<span class="end-point">.</span>
+            {{ $t('name_section.scroll_down')
+            }}<span class="end-point">.</span>
           </p>
           <font-awesome-icon
             class="animated-chevron-down bounce arrow-down"
@@ -32,6 +44,14 @@
     </div>
   </div>
 </template>
+<style scoped></style>
 <script>
-'NameSection';
+export default {
+  name: 'NameSection',
+  data() {
+    return {};
+  },
+  created() {},
+  methods: {},
+};
 </script>
