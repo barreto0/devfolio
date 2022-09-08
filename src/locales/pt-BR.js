@@ -1,5 +1,7 @@
 export const pt_BR = {
-  message: {
-    hello: 'Olá mundo',
+  navbar: {
+    about: 'Sobre',
+    portfolio: 'Portifólio',
+    contact: 'Contato',
   },
 };

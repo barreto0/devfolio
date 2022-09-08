@@ -31,12 +31,10 @@ const pinia = createPinia();
 
 import { pt_BR } from '../src/locales/pt-BR.js';
 import { en } from '../src/locales/en.js';
-import { ja } from '../src/locales/ja.js';
 
 const messages = {
   pt_BR,
   en,
-  ja,
 };
 const i18n = createI18n({
   locale: 'pt_BR',

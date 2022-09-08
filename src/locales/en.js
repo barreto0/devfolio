@@ -1,5 +1,7 @@
 export const en = {
-  message: {
-    hello: 'hello world',
+  navbar: {
+    about: 'About',
+    portfolio: 'Portfolio',
+    contact: 'Contact',
   },
 };

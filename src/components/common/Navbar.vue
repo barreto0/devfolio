@@ -28,7 +28,7 @@
               class="nav-link active fw-bold text-light"
               aria-current="page"
               href="#"
-              >Sobre</a
+              >{{ $t('navbar.about') }}</a
             >
           </li>
           <li class="nav-item">
@@ -36,7 +36,7 @@
               class="nav-link active fw-bold text-light"
               aria-current="page"
               href="#"
-              >Portifólio</a
+              >{{ $t('navbar.portfolio') }}</a
             >
           </li>
           <li class="nav-item">
@@ -44,15 +44,42 @@
               class="nav-link active fw-bold text-light"
               aria-current="page"
               href="#"
-              >Contato</a
+              >{{ $t('navbar.contact') }}</a
             >
           </li>
         </ul>
-        <p class="text-light p-0 m-0">PT-BR | EN</p>
+        <div>
+          <span
+            class="text-light p-0 m-0 locale"
+            @click="setLocale('pt_BR')"
+            >PT-BR</span
+          >
+          <span class="text-light p-0 m-0"> | </span>
+          <span
+            class="text-light p-0 m-0 locale"
+            @click="setLocale('en')"
+            >EN</span
+          >
+        </div>
       </div>
     </div>
   </nav>
 </template>
+<style scoped>
+.locale {
+  cursor: pointer;
+}
+</style>
 <script>
-'Navbar';
+export default {
+  name: 'Navbar',
+  data() {
+    return {};
+  },
+  methods: {
+    setLocale(locale) {
+      this.$i18n.locale = locale;
+    },
+  },
+};
 </script>
