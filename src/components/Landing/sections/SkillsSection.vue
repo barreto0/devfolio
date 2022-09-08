@@ -1,6 +1,9 @@
 <template>
   <div class="container min-vh-100">
-    <p class="job-title text-center mt-5">As cartas do jogador.</p>
+    <p class="job-title text-center mt-5">
+      {{ $t('skills_section.player_cards')
+      }}<span class="end-point">.</span>
+    </p>
     <div
       class="row h-100 align-items-center"
       style="margin-top: 10vh"
@@ -12,20 +15,20 @@
             icon="fa-solid fa-gears"
           />
         </template>
-        <template v-slot:title-skill> Engenharia </template>
-        <template v-slot:card-text>
-          Do IoT ao projeto de peças sob medida para as mais diversas
-          aplicações. Sempre prezo pela qualidade e eficiência dos
-          trabalhos que desenvolvo, buscando o equilíbrio entre
-          orçamento e qualidade.
+        <template v-slot:title-skill>
+          {{ $t('skills_section.engineering') }}
         </template>
-        <template v-slot:expertise-title> Especialidade </template>
+        <template v-slot:card-text>
+          {{ $t('skills_section.engineering_description') }}
+        </template>
+        <template v-slot:expertise-title>
+          {{ $t('skills_section.expertise') }}
+        </template>
         <template v-slot:expertise>
-          Soluções em automação residencial e do campo, projetos sob
-          medida, soluções em eletrônica automotiva.
+          {{ $t('skills_section.expertise_description') }}
         </template>
         <template v-slot:tools-name>
-          Principais Hardwares e Ferramentas
+          {{ $t('skills_section.main_hardware_and_tools') }}
         </template>
         <template v-slot:tools>
           <ul>
@@ -49,20 +52,20 @@
             icon="fa-solid fa-code"
           />
         </template>
-        <template v-slot:title-skill> Desenvolvimento </template>
-        <template v-slot:card-text>
-          Frontend, Backend ou Mobile. Seja a vertente desenvolvo com
-          TDD o seu projeto de ponta a ponta, com a qualidade
-          necessária para futuras manutenções e implementação de novas
-          features.
+        <template v-slot:title-skill>
+          {{ $t('skills_section.development') }}
         </template>
-        <template v-slot:expertise-title> Especialidade </template>
+        <template v-slot:card-text>
+          {{ $t('skills_section.development_description') }}
+        </template>
+        <template v-slot:expertise-title>
+          {{ $t('skills_section.expertise') }}
+        </template>
         <template v-slot:expertise>
-          Do mais simples gerenciador de músicas de karaokê ao mais
-          completo sistema de backoffice com uso de websockets.
+          {{ $t('skills_section.development_expertise') }}
         </template>
         <template v-slot:tools-name>
-          Principais Tecnologias
+          {{ $t('skills_section.main_development_tech') }}
         </template>
         <template v-slot:tools>
           <ul>
@@ -88,14 +91,9 @@
         </template>
         <template v-slot:title-skill> Soft Skills </template>
         <template v-slot:card-text>
-          Com comunicação e agilidade orquestro com maestria as
-          entregas do seu projeto. Sempre mantendo clareza e
-          transparência com o cliente, do contrato à entrega final.<br /><br />Com
-          sede de conhecimento sempre estou em busca de novas
-          tecnologias e tendências mais atuais do mercado.<br /><br />Não
-          existe tecnologia ou paradigma que eu não encare, me traga
-          um framework obscuro e lhe entregarei um produto que atenda
-          as suas expectativas.
+          {{ $t('skills_section.soft_skills_1') }}<br /><br />{{
+            $t('skills_section.soft_skills_2')
+          }}<br /><br />{{ $t('skills_section.soft_skills_3') }}
         </template>
       </SkillCard>
     </div>
