@@ -11,4 +11,10 @@ export const en = {
     scroll_down:
       'Scroll down or click the arrow to find out more about me',
   },
+  about_section: {
+    located_in: 'Located in',
+    fluent_in: "and fluent in English I'm passionate about what I do",
+    with_expertise:
+      'With proficiency in the frontend, backend and mobile spectrums, I can build any web and mobile system from scratch',
+  },
 };

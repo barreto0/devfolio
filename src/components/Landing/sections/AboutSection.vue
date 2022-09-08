@@ -14,22 +14,21 @@
           text-justify: inter-word;
         "
       >
-        Localizado em
+        {{ $t('about_section.located_in') }}
         <a
-          href="https://en.wikipedia.org/wiki/Bras%c3%adlia"
+          :href="
+            $i18n.locale === 'en'
+              ? 'https://en.wikipedia.org/wiki/Bras%c3%adlia'
+              : 'https://pt.wikipedia.org/wiki/Bras%c3%adlia'
+          "
           class="links-purple"
           target="_blank"
           >Brasília</a
         >
-        e fluente em Inglês sou apaixonado pelo que faço<span
-          class="end-point"
-          >.</span
-        ><br />
-        Com domínio dos espectros frontend, backend e mobile, construo
-        qualquer sistema web e móvel a partir do nada<span
-          class="end-point"
-          >.</span
-        >
+        {{ $t('about_section.fluent_in')
+        }}<span class="end-point">.</span><br />
+        {{ $t('about_section.with_expertise')
+        }}<span class="end-point">.</span>
       </p>
     </div>
     <div class="container text-center" style="margin-top: -8vh">
