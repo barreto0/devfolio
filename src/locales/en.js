@@ -39,4 +39,36 @@ export const en = {
     soft_skills_3:
       "There is no technology or paradigm that I won't face, bring me an obscure framework and I will deliver a product that meets your expectations.",
   },
+  experience_section: {
+    the_road_so_far: 'The road so far',
+    fullstack_developer: 'Fullstack Developer',
+    frontend_developer: 'Frontend Developer',
+    junior_developer: 'Junior Developer',
+    intern_developer: 'Intern Developer',
+    current: 'current',
+    freelancer_description:
+      'I work with fullstack web and mobile development, developing systems for various market areas, such as entertainment and e-commerce, and mobile applications for various clients using Flutter.',
+    fornax_description: '-',
+    and: 'and',
+    keener_description:
+      'I have worked with front-end and mobile development, developing systems for various market areas, such as entertainment and e-commerce with Vue technology and mobile applications for various clients using Flutter.',
+    reactit_dev_description:
+      'I have worked with front-end and mobile development, developing systems mainly for the financial market using Angular, React and Vue technologies and mobile applications for various clients using technologies such as React Native and Flutter.',
+    junior: 'Junior',
+    reactit_junior_description:
+      'I have worked with Fullstack development, developing systems mainly for the financial market with Angular, Vue and NodeJS technologies.',
+    intern: 'Intern',
+    senate: 'Federal Senate',
+    senate_description:
+      'I worked as a fullstack developer, developing systems for internal use using NodeJs, EJS and ReactJS technologies.',
+    associate: 'Associate',
+    noqueue_description:
+      "I worked with the development of the client's mobile application using Flutter technology and with the development of the management software using VueJS. I worked with the marketing and prospection of clients for the company.",
+    ministry: 'Ministry of Growth, Planning and Management',
+    ministry_description:
+      'I provided technical user support and assisted in the development of internal systems using Drupal, HTML, CSS and PHP technologies.',
+    graphic_designer: 'Graphic Designer',
+    beyond_description:
+      'I have worked with the creation of logos, visual identities, and social media for small and medium-sized Brazilian companies.',
+  },
 };

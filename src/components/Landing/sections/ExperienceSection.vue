@@ -1,105 +1,97 @@
 <template>
   <div class="timeline-background min-vh-100">
     <div class="col-md-8 offset-md-3 text-white mt-5">
-      <p class="job-title">A estrada até aqui</p>
+      <p class="job-title">
+        {{ $t('experience_section.the_road_so_far') }}
+      </p>
       <ul class="timeline">
         <li>
           <p class="timeline-experience-title">
-            Desenvolvedor Fullstack - Freelancer (2015 - atual)
+            {{ $t('experience_section.fullstack_developer') }} -
+            Freelancer (2015 - {{ $t('experience_section.current') }})
           </p>
           <p>
-            Atuo com desenvolvimento front-end e mobile, desenvolvendo
-            sistemas voltados para as mais diversas áreas do mercado,
-            como entretenimento e e-commerce com tecnologia Vue e
-            aplicativos mobile para clientes diversos utilizando
-            Flutter.
+            {{ $t('experience_section.freelancer_description') }}
           </p>
         </li>
         <li>
           <p class="timeline-experience-title">
-            Desenvolvedor Fullstack - Fornax (09/2022 - atual)
+            {{ $t('experience_section.fullstack_developer') }} -
+            Fornax (09/2022 - {{ $t('experience_section.current') }})
           </p>
-          <p>-</p>
+          <p>{{ $t('experience_section.fornax_description') }}</p>
         </li>
         <li>
           <p class="timeline-experience-title">
-            Desenvolvedor Frontend e Mobile - Keener.io Inovations
-            (09/2021 - 09/2022)
+            {{ $t('experience_section.frontend_developer') }}
+            {{ $t('experience_section.and') }} Mobile - Keener.io
+            Inovations (09/2021 - 09/2022)
           </p>
           <p>
-            Atuo com desenvolvimento front-end e mobile, desenvolvendo
-            sistemas voltados para as mais diversas áreas do mercado,
-            como entretenimento e e-commerce com tecnologia Vue e
-            aplicativos mobile para clientes diversos utilizando
-            Flutter.
-          </p>
-        </li>
-        <li>
-          <p class="timeline-experience-title">
-            Desenvolvedor Fullstack e Mobile - React-it (01/2021 -
-            09/2021)
-          </p>
-          <p>
-            Atuei com desenvolvimento front-end e mobile,
-            desenvolvendo sistemas voltados principalmente para o
-            mercado financeiro com tecnologias Angular, React e Vue e
-            aplicativos mobile para clientes diversos utilizando
-            tecnologias como React Native e Flutter.
+            {{ $t('experience_section.keener_description') }}
           </p>
         </li>
         <li>
           <p class="timeline-experience-title">
-            Desenvolvedor Júnior Fullstack - React-it (10/2020 -
-            01/2021)
+            {{ $t('experience_section.fullstack_developer') }}
+            {{ $t('experience_section.and') }} Mobile - React-it
+            (01/2021 - 09/2021)
           </p>
           <p>
-            Atuei com desenvolvimento Fullstack, desenvolvendo
-            sistemas voltados principalmente para o mercado financeiro
-            com tecnologias Angular, Vue e NodeJS.
+            {{ $t('experience_section.reactit_dev_description') }}
+          </p>
+        </li>
+        <li>
+          <p class="timeline-experience-title">
+            {{ $t('experience_section.junior_developer') }} - React-it
+            (10/2020 - 01/2021)
+          </p>
+          <p>
+            {{ $t('experience_section.reactit_junior_description') }}
           </p>
         </li>
 
         <li>
           <p class="timeline-experience-title">
-            Desenvolvedor Estagiário Fullstack - Senado Federal
+            {{ $t('experience_section.intern_developer') }} -
+            {{ $t('experience_section.senate') }}
             (03/2019 - 10/2020)
           </p>
           <p>
-            Atuei como desenvolvedor fullstack, desenvolvendo sistemas
-            de uso interno utilizando as tecnologias NodeJs, EJS e
-            ReactJS.
+            {{ $t('experience_section.senate_description') }}
           </p>
         </li>
         <li>
           <p class="timeline-experience-title">
-            Sócio/Desenvolvedor Frontend e Mobile - NoQueue (08/2018 -
-            09/2019)
+            {{ $t('experience_section.associate') }}/{{
+              $t('experience_section.frontend_developer')
+            }}
+            {{ $t('experience_section.and') }} Mobile - NoQueue
+            (08/2018 - 09/2019)
           </p>
           <p>
-            Atuei com o desenvolvimento da aplicação mobile de cliente
-            utilizando a tecnologia Flutter e no desenvolvimento no
-            software de gestão utilizando VueJS. Trabalhei com a parte
-            de marketing e prospecção de clientes para a empresa.
+            {{ $t('experience_section.noqueue_description') }}
           </p>
         </li>
         <li>
           <p class="timeline-experience-title">
-            Desenvolvedor Estagiário Ministério do Desenvolvimento,
-            Planejamento e Gestão (03/2018 - 11/2018)
+            {{ $t('experience_section.intern_developer') }} -
+            {{ $t('experience_section.ministry') }} (03/2018 -
+            11/2018)
           </p>
           <p>
-            Atuei com suporte técnico ao usuário e auxiliei no
-            desenvolvimento de sistemas internos utilizando as
-            tecnologias Drupal, HTML, CSS e PHP
+            {{ $t('experience_section.ministry_description') }}
           </p>
         </li>
         <li>
           <p class="timeline-experience-title">
-            Sócio/Designer Gráfico - Beyond (08/2016 - 09/2017)
+            {{ $t('experience_section.associate') }}/{{
+              $t('experience_section.graphic_designer')
+            }}
+            - Beyond (08/2016 - 09/2017)
           </p>
           <p>
-            Atuei com a criação de Logos, identidades visuais e social
-            media para pequenas e médias empresas brasileiras.
+            {{ $t('experience_section.beyond_description') }}
           </p>
         </li>
       </ul>

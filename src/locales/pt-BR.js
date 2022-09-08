@@ -39,4 +39,36 @@ export const pt_BR = {
     soft_skills_3:
       'Não existe tecnologia ou paradigma que eu não encare, me traga um framework obscuro e lhe entregarei um produto que atenda as suas expectativas.',
   },
+  experience_section: {
+    the_road_so_far: 'A estrada até aqui',
+    fullstack_developer: 'Desenvolvedor Fullstack',
+    frontend_developer: 'Desenvolvedor Frontend',
+    junior_developer: 'Desenvolvedor Júnior',
+    intern_developer: 'Desenvolvedor Estagiário',
+    current: 'atual',
+    freelancer_description:
+      'Atuo com desenvolvimento web fullstack e mobile, desenvolvendo sistemas voltados para as mais diversas áreas do mercado, como entretenimento e e-commerce com tecnologia Vue e aplicativos mobile para clientes diversos utilizando Flutter.',
+    fornax_description: '-',
+    and: 'e',
+    keener_description:
+      'Atuei com desenvolvimento front-end e mobile, desenvolvendo sistemas voltados para as mais diversas áreas do mercado, como entretenimento e e-commerce com tecnologia Vue e aplicativos mobile para clientes diversos utilizando Flutter.',
+    reactit_dev_description:
+      'Atuei com desenvolvimento front-end e mobile, desenvolvendo sistemas voltados principalmente para o mercado financeiro com tecnologias Angular, React e Vue e aplicativos mobile para clientes diversos utilizando tecnologias como React Native e Flutter.',
+    junior: 'Júnior',
+    reactit_junior_description:
+      'Atuei com desenvolvimento Fullstack, desenvolvendo sistemas voltados principalmente para o mercado financeiro com tecnologias Angular, Vue e NodeJS.',
+    intern: 'Estagiário',
+    senate: 'Senado Federal',
+    senate_description:
+      'Atuei como desenvolvedor fullstack, desenvolvendo sistemas de uso interno utilizando as tecnologias NodeJs, EJS e ReactJS.',
+    associate: 'Sócio',
+    noqueue_description:
+      'Atuei com o desenvolvimento da aplicação mobile de cliente utilizando a tecnologia Flutter e no desenvolvimento no software de gestão utilizando VueJS. Trabalhei com a parte de marketing e prospecção de clientes para a empresa.',
+    ministry: 'Ministério do Desenvolvimento, Planejamento e Gestão',
+    ministry_description:
+      'Atuei com suporte técnico ao usuário e auxiliei no desenvolvimento de sistemas internos utilizando as tecnologias Drupal, HTML, CSS e PHP.',
+    graphic_designer: 'Designer Gráfico',
+    beyond_description:
+      'Atuei com a criação de Logos, identidades visuais e social media para pequenas e médias empresas brasileiras.',
+  },
 };
