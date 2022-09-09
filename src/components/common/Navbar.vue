@@ -27,7 +27,7 @@
             <a
               class="nav-link active fw-bold text-light"
               aria-current="page"
-              href="#"
+              @click="$router.push('/')"
               >{{ $t('navbar.about') }}</a
             >
           </li>
@@ -35,7 +35,6 @@
             <a
               class="nav-link active fw-bold text-light"
               aria-current="page"
-              href="#"
               >{{ $t('navbar.portfolio') }}</a
             >
           </li>
@@ -43,7 +42,7 @@
             <a
               class="nav-link active fw-bold text-light"
               aria-current="page"
-              href="#"
+              @click="$router.push('/contact')"
               >{{ $t('navbar.contact') }}</a
             >
           </li>
@@ -67,6 +66,9 @@
 </template>
 <style scoped>
 .locale {
+  cursor: pointer;
+}
+.nav-link {
   cursor: pointer;
 }
 </style>

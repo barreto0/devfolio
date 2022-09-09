@@ -71,4 +71,9 @@ export const en = {
     beyond_description:
       'I have worked with the creation of logos, visual identities, and social media for small and medium-sized Brazilian companies.',
   },
+  contact_page: {
+    lets_be_friends: "Let's be friends",
+    find_me: 'You can find me on the social media below',
+    send_email: 'Or send me an email',
+  },
 };

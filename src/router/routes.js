@@ -1,5 +1,6 @@
 import Home from '../components/Landing/Home.vue';
 import NotFound from '../components/errors/NotFound.vue';
+import ContactPage from '../components/Contact/ContactPage.vue';
 
 export const routes = [
   {
@@ -14,7 +15,12 @@ export const routes = [
   //     title: 'RegisterQuoteSuggestion',
   //     meta: { requiresAuth: true },
   //   },
-
+  {
+    path: '/contact',
+    component: ContactPage,
+    title: 'Contact',
+    meta: { guest: true },
+  },
   {
     path: '/:pathMatch(.*)*',
     component: NotFound,

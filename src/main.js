@@ -16,13 +16,19 @@ import {
   faCode,
   faUserNinja,
 } from '@fortawesome/free-solid-svg-icons';
+import {
+  faLinkedin,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons';
 library.add(
   faUserSecret,
   faBars,
   faChevronDown,
   faGears,
   faCode,
-  faUserNinja
+  faUserNinja,
+  faLinkedin,
+  faGithub
 );
 
 import router from './router/router.config';

@@ -71,4 +71,9 @@ export const pt_BR = {
     beyond_description:
       'Atuei com a criação de Logos, identidades visuais e social media para pequenas e médias empresas brasileiras.',
   },
+  contact_page: {
+    lets_be_friends: 'Seja meu amigo',
+    find_me: 'Você pode me encontrar nas redes abaixo',
+    send_email: 'Ou me mandar um email',
+  },
 };
