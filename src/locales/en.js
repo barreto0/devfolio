@@ -75,5 +75,11 @@ export const en = {
     lets_be_friends: "Let's be friends",
     find_me: 'You can find me on the social media below',
     send_email: 'Or send me an email',
+    name: 'Name',
+    message: 'Message',
+    send: 'Send',
+    error_form: 'Fill all the form fields correctly.',
+    success_send: 'Email sent successfully!',
+    error_send: 'Error when sending email.',
   },
 };

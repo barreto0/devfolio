@@ -75,5 +75,11 @@ export const pt_BR = {
     lets_be_friends: 'Seja meu amigo',
     find_me: 'Você pode me encontrar nas redes abaixo',
     send_email: 'Ou me mandar um email',
+    name: 'Nome',
+    message: 'Mensagem',
+    send: 'Enviar',
+    error_form: 'Preencha os campos corretamente.',
+    success_send: 'Email enviado com sucesso!',
+    error_send: 'Erro ao enviar email.',
   },
 };

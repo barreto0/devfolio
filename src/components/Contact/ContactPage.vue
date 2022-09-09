@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div class="background vh-100">
     <Navbar></Navbar>
     <p class="job-title text-center mt-5">
       {{ $t('contact_page.lets_be_friends')
@@ -34,8 +34,8 @@
         <input
           type="text"
           class="form-control"
-          placeholder="Nome"
-          aria-label="Nome"
+          :placeholder="$t('contact_page.name')"
+          :aria-label="$t('contact_page.name')"
           v-model="name"
         />
       </div>
@@ -50,7 +50,9 @@
       </div>
 
       <div class="input-group">
-        <span class="input-group-text">Mensagem</span>
+        <span class="input-group-text">{{
+          $t('contact_page.message')
+        }}</span>
         <textarea
           class="form-control"
           aria-label="With textarea"
@@ -68,13 +70,14 @@
           @click="sendEmail()"
           class="btn btn-lg mt-3"
         >
-          <span v-if="!loading">Enviar</span>
+          <span v-if="!loading">{{ $t('contact_page.send') }}</span>
           <div v-else class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
           </div>
         </button>
       </div>
     </div>
+    <Footer style="margin-top: 16vh"></Footer>
   </div>
 </template>
 <style src="./styles.css"></style>

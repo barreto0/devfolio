@@ -15,15 +15,15 @@
       >
         <span class="wrap"></span>
       </a> -->
-      <p class="job-title">
+      <p class="job-title text-center">
         {{ $t('name_section.computer_engineer')
         }}<span class="end-point">.</span>
       </p>
-      <p class="job-title">
+      <p class="job-title text-center">
         {{ $t('name_section.fullstack_developer')
         }}<span class="end-point">.</span>
       </p>
-      <p class="job-title">
+      <p class="job-title text-center">
         {{ $t('name_section.mobile_developer')
         }}<span class="end-point">.</span>
       </p>

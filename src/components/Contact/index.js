@@ -1,9 +1,11 @@
 import Navbar from '../common/Navbar.vue';
+import Footer from '../common/Footer.vue';
 import emailjs from '@emailjs/browser';
 import { useToast } from 'vue-toastification';
 export default {
   components: {
     Navbar,
+    Footer,
   },
   data() {
     return {
@@ -31,7 +33,7 @@ export default {
     async sendEmail() {
       this.loading = true;
       if (!this.isFormValid()) {
-        this.toast.error('Preencha os campos corretamente.', {
+        this.toast.error(this.$t('contact_page.error_form'), {
           timeout: 2000,
         });
         this.loading = false;
@@ -50,12 +52,12 @@ export default {
         )
         .then(
           (result) => {
-            this.toast.success('Email enviado com sucesso!', {
+            this.toast.success(this.$t('contact_page.success_send'), {
               timeout: 2000,
             });
           },
           (error) => {
-            this.toast.error('Erro ao enviar email.', {
+            this.toast.error(this.$t('contact_page.error_send'), {
               timeout: 2000,
             });
           }
