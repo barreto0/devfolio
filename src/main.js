@@ -31,6 +31,9 @@ library.add(
   faGithub
 );
 
+import Toast from 'vue-toastification';
+import 'vue-toastification/dist/index.css';
+
 import router from './router/router.config';
 
 const pinia = createPinia();
@@ -52,6 +55,7 @@ createApp(App)
   .use(pinia)
   .use(router)
   .use(i18n)
+  .use(Toast)
   .component('font-awesome-icon', FontAwesomeIcon)
   .mount('#app');
 

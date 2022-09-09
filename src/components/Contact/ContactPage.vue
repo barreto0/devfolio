@@ -29,6 +29,52 @@
     <p class="about-me text-center mt-5">
       {{ $t('contact_page.send_email') }}
     </p>
+    <div class="mt-5" style="margin: 0 20vw">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Nome"
+          aria-label="Nome"
+          v-model="name"
+        />
+      </div>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Email"
+          aria-label="Email"
+          v-model="email"
+        />
+      </div>
+
+      <div class="input-group">
+        <span class="input-group-text">Mensagem</span>
+        <textarea
+          class="form-control"
+          aria-label="With textarea"
+          v-model="message"
+        ></textarea>
+      </div>
+      <div class="input-group">
+        <button
+          style="
+            background-color: #c044ec;
+            color: #1f1f1f;
+            margin-left: auto;
+          "
+          type="submit"
+          @click="sendEmail()"
+          class="btn btn-lg mt-3"
+        >
+          <span v-if="!loading">Enviar</span>
+          <div v-else class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 <style src="./styles.css"></style>
