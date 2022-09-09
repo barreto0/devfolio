@@ -8,8 +8,7 @@ export const en = {
     computer_engineer: 'Computer Engineer',
     fullstack_developer: 'Fullstack Developer',
     mobile_developer: 'Mobile Developer',
-    scroll_down:
-      'Scroll down or click the arrow to find out more about me',
+    scroll_down: 'Scroll down to find out more about me',
   },
   about_section: {
     located_in: 'Located in',
