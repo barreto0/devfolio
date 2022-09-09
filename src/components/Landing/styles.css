@@ -36,7 +36,7 @@
     cursor: pointer;
   }
   .second-session-background {
-    background-image: url('src/assets/low-poly-grid-purple.svg');
+    background-image: url('/low-poly-grid-purple.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -81,7 +81,7 @@
     color: white;
    }
    .timeline-background {
-    background-image: url('src/assets/single-blob-purple.svg');
+    background-image: url('/single-blob-purple.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
