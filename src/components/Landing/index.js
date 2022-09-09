@@ -3,6 +3,7 @@ import NameSection from './sections/NameSection.vue';
 import AboutSection from './sections/AboutSection.vue';
 import SkillsSection from './sections/SkillsSection.vue';
 import ExperienceSection from './sections/ExperienceSection.vue';
+import Footer from '../common/Footer.vue';
 export default {
   components: {
     Navbar,
@@ -10,6 +11,7 @@ export default {
     AboutSection,
     SkillsSection,
     ExperienceSection,
+    Footer,
   },
 };
 class TxtType {

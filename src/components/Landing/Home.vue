@@ -5,6 +5,7 @@
     <AboutSection></AboutSection>
     <SkillsSection></SkillsSection>
     <ExperienceSection></ExperienceSection>
+    <Footer></Footer>
   </div>
 </template>
 <script src="./index.js"></script>
