@@ -1,4 +1,4 @@
-.project-card {
+.article-card{
     min-height: 40vh;
     padding: 20px;
     background-color: #1f1f1f;
@@ -6,27 +6,31 @@
     border: 1px solid #c044ec;
     margin-top: 5%;
 }
-.project-card-title {
-    font-size: 3vh;
+.article-card-title{
+    font-size: 2.5vh;
     font-weight: 500;
     padding: 0;
     margin: 0;
     color: white;
     margin: 5% 0;
 }
-.project-card-text {
-    font-size: 1.9vh;
-    padding: 0;
+.article-card-text{
+    font-size: 2vh;
     color: white;
     text-align: justify;
     text-justify: inter-word;
 }
-.project-card-link{
+.article-image{
+    max-height: 35vh;
+    max-width: 35vw;
+    margin: 0 auto;
+}
+.article-card-link{
     margin-top: 1.5vh;
     color: white;
     text-decoration: underline #c044ec;
 }
-.project-card-link:hover {
+.article-card-link:hover {
     color: white;
     text-decoration: underline #c044ec;
 }

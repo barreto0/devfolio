@@ -1,7 +1,9 @@
 <template>
   <div class="background px-5">
     <Navbar></Navbar>
-    <p class="job-title text-center mt-5">Projetos</p>
+    <p class="job-title text-center mt-5">
+      {{ $t('navbar.portfolio') }}<span class="end-point">.</span>
+    </p>
     <div class="row h-100 mt-5 p-0">
       <ProjectCard>
         <template v-slot:title-skill> NoQueue </template>
