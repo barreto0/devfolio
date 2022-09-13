@@ -35,6 +35,15 @@
             <a
               class="nav-link active fw-bold text-light"
               aria-current="page"
+              @click="$router.push('/contact')"
+              >{{ $t('navbar.contact') }}</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active fw-bold text-light"
+              aria-current="page"
+              @click="$router.push('/portfolio')"
               >{{ $t('navbar.portfolio') }}</a
             >
           </li>
@@ -42,8 +51,7 @@
             <a
               class="nav-link active fw-bold text-light"
               aria-current="page"
-              @click="$router.push('/contact')"
-              >{{ $t('navbar.contact') }}</a
+              >Blog</a
             >
           </li>
         </ul>

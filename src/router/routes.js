@@ -1,6 +1,7 @@
 import Home from '../components/Landing/Home.vue';
 import NotFound from '../components/errors/NotFound.vue';
 import ContactPage from '../components/Contact/ContactPage.vue';
+import PortfolioPage from '../components/Portfolio/PortfolioPage.vue';
 
 export const routes = [
   {
@@ -19,6 +20,12 @@ export const routes = [
     path: '/contact',
     component: ContactPage,
     title: 'Contact',
+    meta: { guest: true },
+  },
+  {
+    path: '/portfolio',
+    component: PortfolioPage,
+    title: 'PortfolioPage',
     meta: { guest: true },
   },
   {
