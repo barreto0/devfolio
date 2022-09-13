@@ -21,8 +21,7 @@
     text-justify: inter-word;
 }
 .article-image{
-    max-height: 35vh;
-    max-width: 35vw;
+    max-height: 30%;
     margin: 0 auto;
 }
 .article-card-link{
