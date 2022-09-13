@@ -23,10 +23,10 @@
         {{ $t('name_section.fullstack_developer')
         }}<span class="end-point">.</span>
       </p>
-      <p class="job-title text-center">
+      <!-- <p class="job-title text-center">
         {{ $t('name_section.mobile_developer')
         }}<span class="end-point">.</span>
-      </p>
+      </p> -->
     </div>
     <div class="container text-center" style="margin-top: -16.5vh">
       <div class="row">

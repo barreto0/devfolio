@@ -6,7 +6,7 @@ export const en = {
   },
   name_section: {
     computer_engineer: 'Computer Engineer',
-    fullstack_developer: 'Fullstack Developer',
+    fullstack_developer: 'Fullstack and Mobile Developer',
     mobile_developer: 'Mobile Developer',
     scroll_down: 'Scroll down to find out more about me',
   },

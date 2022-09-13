@@ -19,6 +19,7 @@ import {
 import {
   faLinkedin,
   faGithub,
+  faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 library.add(
   faUserSecret,
@@ -28,7 +29,8 @@ library.add(
   faCode,
   faUserNinja,
   faLinkedin,
-  faGithub
+  faGithub,
+  faYoutube
 );
 
 import Toast from 'vue-toastification';

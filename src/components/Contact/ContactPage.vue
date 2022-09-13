@@ -25,6 +25,13 @@
           class="social-media-icon"
           icon="fa-brands fa-github"
       /></a>
+      <a
+        href="https://www.youtube.com/channel/UCsz7OfWp3PhkooB2ht6lG0Q"
+        target="_blank"
+        ><font-awesome-icon
+          class="social-media-icon"
+          icon="fa-brands fa-youtube"
+      /></a>
     </div>
     <p class="about-me text-center mt-5">
       {{ $t('contact_page.send_email') }}
