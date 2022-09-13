@@ -24,7 +24,7 @@
         <template v-slot:image>
           <img
             class="article-image"
-            src="thumb_localizaçao_pt.png"
+            src="/thumb_localizaçao_pt.png"
             alt="Internacionalização para Vue3 com VueI18N"
           />
         </template>
