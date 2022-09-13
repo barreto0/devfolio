@@ -2,6 +2,7 @@ import Home from '../components/Landing/Home.vue';
 import NotFound from '../components/errors/NotFound.vue';
 import ContactPage from '../components/Contact/ContactPage.vue';
 import PortfolioPage from '../components/Portfolio/PortfolioPage.vue';
+import BlogPage from '../components/Blog/BlogPage.vue';
 
 export const routes = [
   {
@@ -26,6 +27,12 @@ export const routes = [
     path: '/portfolio',
     component: PortfolioPage,
     title: 'PortfolioPage',
+    meta: { guest: true },
+  },
+  {
+    path: '/blog',
+    component: BlogPage,
+    title: 'BlogPage',
     meta: { guest: true },
   },
   {

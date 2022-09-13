@@ -51,6 +51,7 @@
             <a
               class="nav-link active fw-bold text-light"
               aria-current="page"
+              @click="$router.push('/blog')"
               >Blog</a
             >
           </li>
