@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <p class="text-white-50 m-0 p-0 text-center">[barreto 2022]</p>
-  </div>
+  <p class="text-white-50 pt-5 m-0 text-center">[barreto 2022]</p>
 </template>
 <script>
 'Footer';
