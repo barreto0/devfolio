@@ -1,0 +1,32 @@
+.project-card {
+    min-height: 39vh;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    border: 1px solid #c044ec;
+    margin-top: 5%;
+}
+.project-card-title {
+    font-size: 3.2vh;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin: 5% 0;
+}
+.project-card-text {
+    font-size: 1.9vh;
+    padding: 0;
+    color: white;
+    text-align: justify;
+  text-justify: inter-word;
+}
+.project-card-link{
+    margin-top: 1.5vh;
+    color: white;
+    text-decoration: underline #c044ec;
+}
+.project-card-link:hover {
+    color: white;
+    text-decoration: underline #c044ec;
+}
