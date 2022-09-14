@@ -9,7 +9,7 @@
         <template v-slot:title-article>
           <a
             href="
-            https://www.youtube.com/watch?v=2wUPK_a8PPU
+            https://medium.com/@gabriel.barreto.dev/internacionaliza%C3%A7%C3%A3o-para-vue-3-com-vuei18n-b765a04b8741
             "
             class="links-purple"
             target="_blank"
