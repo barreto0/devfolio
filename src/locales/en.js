@@ -81,4 +81,59 @@ export const en = {
     success_send: 'Email sent successfully!',
     error_send: 'Error when sending email.',
   },
+  portfolio: {
+    keener_participation:
+      'Participation in the project while at Keener.io.',
+    reactit_participation:
+      'Participation in the project while at React-it.',
+    uncontinued: 'Discontinued',
+    in_development: 'In Development',
+    no_queue_description:
+      'Product for managing tables and receipts in bars, restaurants and food-trucks using QR Codes. Admin Panel in Vue2, App in Flutter and backend in NodeJS.',
+    meu_hiit_description:
+      'Application for tracking high intensity interval training. Developed in flutter using modular architecture and Mobx state manager.',
+    dinoday_description:
+      'Service for managing "dinodays", in simple terms, motor vehicle power measurement events. Development in Vue3 and NodeJS.',
+    strong_password: 'Strong Password Generator',
+    strong_password_description:
+      'Simple strong password generator developed with Nuxt3 to help create temporary passwords.',
+    renault_can_title: 'Renault CAN Network',
+    renault_can_description:
+      'Reverse engineering of the CAN network of the renault national car lineup for the development of automotive solutions.',
+    quizter_description:
+      'A betting product between users, who compete to see who can answer the most trivia questions, betting real or fictional money. Admin panel in Vue2 and app in Flutter.',
+    pluggto_description:
+      "Application for inventory management through Plugg.to's aggregator API. App developed in Flutter.",
+    cerberus_description:
+      'OCR product with features to manage passwords and documents in an encrypted way. App in Flutter, backend in Java.',
+    astrology_software_title: 'Astrology Software',
+    astrology_software_description:
+      'Social network for astrology enthusiast users. App in Vue2, backend in dotnet.',
+    live_quiz_title: 'Live Quiz Game',
+    live_quiz_description:
+      'Trivia quiz product, with a live presenter who provides the questions to users during the game, users who get the questions right share the available prize. Admin panel in Vue2, app in Flutter, backend in dotnet.',
+    totem_software_title: 'Sales Totem',
+    totem_software_description:
+      'Application for use on a totem (Tablet) at the entrance of the store. The user places the order on the totem and picks up the order at the counter. App in flutter, backend in dotnet.',
+    health_software_title: 'Healthcare Company',
+    health_software_description_1:
+      'Maintenance and implementation of new features in a professional scheduling system. App in Angular 11, backend in dotnet.',
+    health_software_description_2:
+      'App for scheduling professionals. App in Flutter, backend in dotnet.',
+    worked_hours_title: 'Hours worked',
+    worked_hours_description:
+      'Product for managing workers and tracking their hours worked, by competence and by project. App in Flutter, backend in dotnet.',
+    bs2_title: 'Backoffice software BS2 bank',
+    bs2_description:
+      'Highly customizable backoffice system in standard CMS. App in Vue2.',
+    social_media_title: 'Social network',
+    social_media_description:
+      'Social network with focus on timelines of human life. App in Flutter, backend in dotnet.',
+    obd2_reader_title: 'OBD2 reader',
+    obd2_reader_description:
+      'Application for reading data in OBD2 standard, through communication with the reading device in the vehicle.',
+    check_in_title: 'Clock in/Clock out',
+    check_in_description:
+      'Clock in/Clock out system with a time bank management feature.',
+  },
 };

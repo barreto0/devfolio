@@ -81,4 +81,59 @@ export const pt_BR = {
     success_send: 'Email enviado com sucesso!',
     error_send: 'Erro ao enviar email.',
   },
+  portfolio: {
+    keener_participation:
+      'Participação no projeto enquanto na Keener.io.',
+    reactit_participation:
+      'Participação no projeto enquanto na React-it.',
+    uncontinued: 'Descontinuado',
+    in_development: 'Em desenvolvimento',
+    no_queue_description:
+      'Produto de gerenciamento de mesas e comandas em bares, restaurantes e food-trucks através de QR Codes. Painel Admin em Vue2, App em Flutter e backend em NodeJS.',
+    meu_hiit_description:
+      'Aplicativo para rastrear treinos de alta intensidade intervalada. Desenvolvido em flutter utilizando arquitetura modular e gerenciador de estado Mobx.',
+    dinoday_description:
+      'Serviço de gerenciamento de "dinodays", em termos simples, eventos de aferição de potência de veículos automotores. Desenvolvimento em Vue3 e NodeJS.',
+    strong_password: 'Gerador de senha forte',
+    strong_password_description:
+      'Simples gerador de senha forte desenvolvido com Nuxt3 com intuito de ajudar na criação de senhas temporárias.',
+    renault_can_title: 'Rede CAN Renault',
+    renault_can_description:
+      'Projeto de engenharia reversa da rede CAN da linha nacional renault para desenvolvimento de soluções automotivas para esta linha.',
+    quizter_description:
+      ' Produto de apostas entre usuários, os quais competem para ver quem acerta mais perguntas do tipo trivia, apostando dinheiro real ou fictício. Painel Admin em Vue2 e app em Flutter.',
+    pluggto_description:
+      'Aplicativo para gerenciamento de estoque através da API agregadora da Plugg.to. App em Flutter.',
+    cerberus_description:
+      'Produto de OCR com features de administração de senhas e documentos de maneira encriptada. App em Flutter, backend em Java.',
+    astrology_software_title: 'Software de Astrologia',
+    astrology_software_description:
+      'Rede social voltada para usuários entusiastas em astrologia. App em Vue2, backend em dotnet.',
+    live_quiz_title: 'Quiz ao vivo',
+    live_quiz_description:
+      'Produto de quiz trivia, com apresentador ao vivo que disponibiliza as questões para os usuários durante o jogo, os usuários que acertarem as perguntas dividem o prêmio disponível. Painel admin em Vue2, app em Flutter, backend em dotnet.',
+    totem_software_title: 'Totem de vendas',
+    totem_software_description:
+      'Aplicativo para uso em totem (Tablet) na entrada da loja. O usuário efetua o pedido pelo totem e retira o pedido no balcão. App em flutter, backend em dotnet.',
+    health_software_title: 'Empresa de saúde',
+    health_software_description_1:
+      'Manutençao e implementação de novas features em sistema de agendamento de profissionais. App em Angular 11, backend em dotnet.',
+    health_software_description_2:
+      'App de agendamento de profissionais. App em Flutter, backend em dotnet.',
+    worked_hours_title: 'Horas trabalhadas',
+    worked_hours_description:
+      'Produto de gerenciamento de coloboradores e rastreio de suas horas trabalhadas, por competência e por projeto. App em Flutter, backend em dotnet.',
+    bs2_title: 'Backoffice banco BS2',
+    bs2_description:
+      'Sistema de backoffice altamente customizável em padrão CMS. App em Vue2.',
+    social_media_title: 'Rede social',
+    social_media_description:
+      'Rede social com foco em timelines da vida humana. App em Flutter, backend em dotnet.',
+    obd2_reader_title: 'Leitor de OBD2',
+    obd2_reader_description:
+      'Aplicativo de leitura de dados em padrão OBD2, através de comunicação com dispositivo de leitura no veículo.',
+    check_in_title: 'Ponto eletrônico',
+    check_in_description:
+      'Sistema de ponto eletrônico com recurso de gerenciamento de banco de horas.',
+  },
 };
