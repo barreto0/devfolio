@@ -29,6 +29,29 @@
           />
         </template>
       </ArticleCard>
+      <ArticleCard>
+        <template v-slot:title-article>
+          <a
+            href="
+            https://medium.com/@gabriel.barreto.dev/language-switcher-carregamento-din%C3%A2mico-de-l%C3%ADnguas-com-vue-3-e-vuei18n-e214ca5895b9
+            "
+            class="links-purple"
+            target="_blank"
+            >(PT-BR) Language Switcher para Vue3 com VueI18N</a
+          >
+        </template>
+        <template v-slot:card-text>
+          Tutorial de implementação de carregamento dinâmico de
+          línguas em seu app com Vue 3 e VueI18N.
+        </template>
+        <template v-slot:image>
+          <img
+            class="article-image"
+            src="/language_switcher_thumbnail.png"
+            alt="Internacionalização para Vue3 com VueI18N"
+          />
+        </template>
+      </ArticleCard>
     </div>
     <Footer></Footer>
   </div>
