@@ -32,6 +32,13 @@
           class="social-media-icon"
           icon="fa-brands fa-youtube"
       /></a>
+      <a
+        href="https://medium.com/@gabriel.barreto.dev"
+        target="_blank"
+        ><font-awesome-icon
+          class="social-media-icon"
+          icon="fa-brands fa-medium"
+      /></a>
     </div>
     <p class="about-me text-center mt-5">
       {{ $t('contact_page.send_email') }}

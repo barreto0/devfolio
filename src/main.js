@@ -20,6 +20,7 @@ import {
   faLinkedin,
   faGithub,
   faYoutube,
+  faMedium,
 } from '@fortawesome/free-brands-svg-icons';
 library.add(
   faUserSecret,
@@ -30,7 +31,8 @@ library.add(
   faUserNinja,
   faLinkedin,
   faGithub,
-  faYoutube
+  faYoutube,
+  faMedium
 );
 
 import Toast from 'vue-toastification';
